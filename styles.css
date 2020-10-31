@@ -1,0 +1,73 @@
+#menu{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
+
+#acciones{
+color: green;
+text-align: right;
+display: inline-block;.
+width: 10%;
+}
+
+#logo {
+    display: inline-block;
+    width: 10%;
+  }
+
+.formulario {
+  display: inline;
+  margin: 5px;
+}
+
+form {
+  display: block;
+}
+
+
+
+.header {
+  margin: 10px;
+}
+
+.footer {
+  display: inline;
+  text-align: right;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.menu {
+  list-style: none;
+}
+
+h1 {
+  color: #8b8b8bcc;
+}
+
+button {
+  color: #fff;
+  background-color: #025157;
+  margin-left: 250px;
+}
+
+p {
+  color: #46484c;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fffbf7;
+}
+
+input {
+  margin-left: 20px;
+}
