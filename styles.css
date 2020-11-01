@@ -1,52 +1,90 @@
-#menu{
-    text-align: center;
-    display: inline-block;
-    width: 50%;
+header{
+    font-family: sans-serif;
+    height: 45px;
+    display: block;
+    width: 100%;
+}
+
+#NavBar{
+  list-style: none;
+  display: inline-block;
+  color: #025157;
+  text-align: center;
+  padding-inline-start: 0%;
+  }
+
+#logo {
+  display: inline-block;
+  width: 20%;
+  height: 45px;
+  vertical-align: bottom;
+  }
+
+#Menu{
+  display: inline-block;
+  width: 60%;
+  text-align: center;
 }
 
 #acciones{
-color: green;
-text-align: right;
-display: inline-block;.
-width: 10%;
+  color: #67b54b;
+  display: inline-block;
+  font-size: 14px;
+  height: 45px;
+  width: 19%;
+  vertical-align: bottom;
+  text-align: right;
 }
 
-#logo {
-    display: inline-block;
-    width: 10%;
-  }
+.container-top{
+  margin-bottom: 0;
+
+}
+
+.SignIn{
+  color: white;
+  background-color: #67b54b;
+  padding: 12px 14px 12px 14px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 0 0 0 10px;
+}
+
+.SignIn_a{
+  display: inline-block;
+  margin-bottom: 0;
+  margin: 10px 10px 0 10px;
+  color: #67b54b;
+  
+}
+
+.lista-menu{
+  display: inline;
+  margin: 0 25px 0 0;
+  vertical-align: top;
+}
 
 .formulario {
-  display: inline;
   margin: 5px;
 }
 
 form {
   display: block;
-}
-
-
-
-.header {
-  margin: 10px;
+  padding-left: 20px;
 }
 
 .footer {
-  display: inline;
+  display: inline-block;
   text-align: right;
   margin: 10px;
 }
 
+.registered{
+  float: right;
+}
+
 a {
   text-decoration: none;
-}
-
-li {
-  display: inline-block;
-}
-
-.menu {
-  list-style: none;
 }
 
 h1 {
@@ -56,7 +94,6 @@ h1 {
 button {
   color: #fff;
   background-color: #025157;
-  margin-left: 250px;
 }
 
 p {
